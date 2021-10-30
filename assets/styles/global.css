@@ -62,6 +62,13 @@ body {
   text-align: center;
 }
 
+.value {
+  color: var(--very-light-pink);
+  font-size: var(--md);
+  font-weight: 300;
+  margin: 8px 0 32px 0;
+}
+
 .primary-button {
   background-color: var(--hospital-green);
   border-radius: 8px;
