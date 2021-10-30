@@ -13,10 +13,18 @@
   <body>
     <div class="login">
       <div class="form-container">
-        <img src="./assets/logos/logo_yard_sale.svg" alt="logo" class="logo" />
-
+        <h1 class="title title-left">My account</h1>
         <form action="#" class="form">
           <div>
+            <label for="name" class="label">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input input-name"
+              placeholder="my name"
+            />
+
             <label for="email" class="label">Email</label>
             <input
               type="text"
@@ -34,16 +42,14 @@
               class="input input-password"
               placeholder="********"
             />
-
-            <input
-              type="submit"
-              value="Log in"
-              class="primary-button login-button"
-            />
-            <a href="#">Forgot my password</a>
           </div>
+
+          <input
+            type="submit"
+            value="Create"
+            class="primary-button create-button"
+          />
         </form>
-        <button class="secondary-button signup-button">Sign up</button>
       </div>
     </div>
   </body>

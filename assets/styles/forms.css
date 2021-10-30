@@ -27,6 +27,8 @@
   margin-bottom: 12px;
 }
 
+.input-name,
+.input-password,
 .input-email {
   margin-bottom: 22px;
 }
